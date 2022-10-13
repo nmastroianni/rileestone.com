@@ -1,0 +1,25 @@
+{
+  "id": "homepage",
+  "label": "Homepage",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "metaimage": {
+        "type": "Image",
+        "config": {
+          "label": "MetaImage",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "metadescription": {
+        "type": "Text",
+        "config": {
+          "label": "MetaDescription",
+          "placeholder": ""
+        }
+      }
+    }
+  }
+}
