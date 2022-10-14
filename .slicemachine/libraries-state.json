@@ -1,5 +1,345 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "hero": {
+        "library": "slices",
+        "id": "hero",
+        "name": "Hero",
+        "description": "Hero",
+        "model": {
+          "id": "hero",
+          "type": "SharedSlice",
+          "name": "Hero",
+          "description": "Hero",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "heroheadline": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadline",
+                    "placeholder": ""
+                  }
+                },
+                "heroheadlinespan": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadlineSpan",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "herobuttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroButtonText",
+                    "placeholder": ""
+                  }
+                },
+                "herobuttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "HeroButtonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                },
+                "herobuttonstyle": {
+                  "type": "Select",
+                  "config": {
+                    "label": "HeroButtonStyle",
+                    "placeholder": "Choose a button style",
+                    "options": [
+                      "Solid",
+                      "Outline",
+                      "Rounded",
+                      "Rounded Outline",
+                      "Ghost"
+                    ],
+                    "default_value": "Solid"
+                  }
+                },
+                "herobuttonripple": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "HeroButtonRipple",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "heroWithImage",
+              "name": "Hero - with Image",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "heroheadline": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadline",
+                    "placeholder": ""
+                  }
+                },
+                "heroheadlinespan": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadlineSpan",
+                    "placeholder": ""
+                  }
+                },
+                "heroimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "HeroImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "heroimagelocation": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "HeroImageLocation",
+                    "placeholder_false": "Left",
+                    "placeholder_true": "Right",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {
+                "herobuttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroButtonText",
+                    "placeholder": ""
+                  }
+                },
+                "herobuttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "HeroButtonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                },
+                "herobuttonstyle": {
+                  "type": "Select",
+                  "config": {
+                    "label": "HeroButtonStyle",
+                    "placeholder": "Choose a button style",
+                    "options": [
+                      "Solid",
+                      "Outline",
+                      "Rounded",
+                      "Rounded Outline",
+                      "Ghost"
+                    ],
+                    "default_value": "Solid"
+                  }
+                },
+                "herobuttonripple": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "HeroButtonRipple",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "heroWithBackgroundImage",
+              "name": "Hero - with Background Image",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Hero",
+              "primary": {
+                "heroheadline": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadline",
+                    "placeholder": ""
+                  }
+                },
+                "heroheadlinespan": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroHeadlineSpan",
+                    "placeholder": ""
+                  }
+                },
+                "herobackgroundimage": {
+                  "type": "Image",
+                  "config": {
+                    "label": "HeroBackgroundImage",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {
+                "herobuttontext": {
+                  "type": "Text",
+                  "config": {
+                    "label": "HeroButtonText",
+                    "placeholder": ""
+                  }
+                },
+                "herobuttonlink": {
+                  "type": "Link",
+                  "config": {
+                    "label": "HeroButtonLink",
+                    "placeholder": "",
+                    "allowTargetBlank": false,
+                    "select": null
+                  }
+                },
+                "herobuttonstyle": {
+                  "type": "Select",
+                  "config": {
+                    "label": "HeroButtonStyle",
+                    "placeholder": "Choose a button style",
+                    "options": [
+                      "Solid",
+                      "Outline",
+                      "Rounded",
+                      "Rounded Outline",
+                      "Ghost"
+                    ],
+                    "default_value": "Solid"
+                  }
+                },
+                "herobuttonripple": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "HeroButtonRipple",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "herobuttontext": "Grab a Copy",
+                "herobuttonlink": {
+                  "link_type": "Web",
+                  "url": "#"
+                },
+                "herobuttonstyle": "Solid",
+                "herobuttonripple": true
+              }
+            ],
+            "primary": {
+              "heroheadline": "The best book in town",
+              "heroheadlinespan": "is MY book!"
+            },
+            "slice_type": "hero"
+          },
+          "heroWithImage": {
+            "variation": "heroWithImage",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "herobuttontext": "Button Text",
+                "herobuttonlink": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                },
+                "herobuttonstyle": "Rounded Outline",
+                "herobuttonripple": true
+              }
+            ],
+            "primary": {
+              "heroheadline": "This is a Hero Slice",
+              "heroheadlinespan": "with an Image.",
+              "heroimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1520848315518-b991dd16a625"
+              },
+              "heroimagelocation": false
+            },
+            "slice_type": "hero"
+          },
+          "heroWithBackgroundImage": {
+            "variation": "heroWithBackgroundImage",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {
+                "herobuttontext": "usually",
+                "herobuttonlink": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                },
+                "herobuttonstyle": "Solid",
+                "herobuttonripple": true
+              }
+            ],
+            "primary": {
+              "heroheadline": "Hero with ",
+              "heroheadlinespan": "Background Image",
+              "herobackgroundimage": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": null,
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1446329813274-7c9036bd9a1f"
+              }
+            },
+            "slice_type": "hero"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/home/nmastroianni/linuxDev/next/rileestone.com/slices/Hero/default/preview.png",
+            "width": 571,
+            "height": 515
+          },
+          "heroWithImage": {
+            "path": "/home/nmastroianni/linuxDev/next/rileestone.com/slices/Hero/heroWithImage/preview.png",
+            "width": 842,
+            "height": 700
+          },
+          "heroWithBackgroundImage": {
+            "path": "/home/nmastroianni/linuxDev/next/rileestone.com/slices/Hero/heroWithBackgroundImage/preview.png",
+            "width": 1012,
+            "height": 939
+          }
+        }
+      }
+    }
   }
 }

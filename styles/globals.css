@@ -3,7 +3,31 @@
 @tailwind utilities;
 
 .headroom-wrapper > div {
-  /* @apply bg-accent shadow-sm; */
+  @apply bg-rose-100 shadow-sm;
+}
+
+/*
+BUTTON STYLES
+*/
+
+.btn-rounded {
+  @apply my-3 inline-block rounded-full bg-rose-500 px-8 py-3 text-sm font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg md:my-0;
+}
+
+.btn-outline {
+  @apply my-3 inline-block rounded border-2 border-rose-400 px-8 py-3 text-sm font-medium uppercase leading-tight text-rose-700 transition duration-150 ease-in-out hover:bg-rose-900 hover:bg-opacity-5 hover:shadow-lg focus:outline-none focus:ring-0 dark:text-rose-100 md:my-0;
+}
+
+.btn-rounded-outline {
+  @apply inline-block rounded-full border-2 border-rose-400 px-8 py-3 text-sm font-medium uppercase leading-tight text-rose-700 transition duration-150 ease-in-out hover:bg-rose-900 hover:bg-opacity-5 hover:shadow-lg focus:outline-none focus:ring-0 dark:text-rose-100;
+}
+
+.btn-ghost {
+  @apply inline-block rounded bg-transparent px-8 py-3 text-sm font-medium uppercase leading-tight text-rose-600 transition duration-300 ease-in-out hover:bg-rose-100 focus:bg-rose-100 focus:text-rose-700 focus:outline-none focus:ring-0 active:bg-rose-200 active:text-rose-800 dark:text-rose-100 dark:hover:bg-rose-500;
+}
+
+.btn-default {
+  @apply inline-block rounded bg-rose-500 px-8 py-3 text-sm font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-rose-700 hover:shadow-lg focus:bg-rose-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-rose-800 active:shadow-lg;
 }
 
 .grecaptcha-badge {

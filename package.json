@@ -17,9 +17,14 @@
     "@prismicio/next": "^0.1.6",
     "@prismicio/react": "^2.5.0",
     "@prismicio/slice-simulator-react": "^0.2.2",
+    "axios": "^1.1.2",
+    "cookies-next": "^2.1.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-headroom": "^3.2.1",
+    "react-hook-form": "^7.37.0",
+    "react-icons": "^4.4.0",
     "tw-elements": "^1.0.0-alpha12"
   },
   "devDependencies": {

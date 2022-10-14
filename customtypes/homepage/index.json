@@ -19,6 +19,17 @@
           "label": "MetaDescription",
           "placeholder": ""
         }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "hero": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }
